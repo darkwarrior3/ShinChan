@@ -2,8 +2,8 @@
 clear
 if [ -e "$HOME/../usr/bin/w3m" ]
 then
-	echo -e "$green Starting ShinChan v0.1"
-	echo -e "$green Yet Another Chan Client (YACC)"
+	echo "Starting ShinChan v0.1"
+	echo "Yet Another Chan Client (YACC)"
 else
 	apt-get install w3m figlet && clear
 fi
@@ -11,15 +11,15 @@ while true
 do
 	figlet ShinChan
 	echo
-	echo -e "$blue 1. Press [1] for 4chan"
-	echo -e "$blue 2. Press [2] for 8chan"
-	echo -e "$cyan 3. Press [3] for 420chan"
-	echo -e "$cyan 4. Press [4] for 22chan"
-	echo -e "$yellow 5. Press [5] for all Chan sites index"
-	echo -e "$green 6. Help, About [6]"
-	echo -e "$red 7. Press Any key to Exit"
+	echo 1. Press [1] for 4chan
+	echo 2. Press [2] for 8chan
+	echo 3. Press [3] for 420chan
+	echo 4. Press [4] for 22chan
+	echo 5. Press [5] for all Chan sites index
+	echo 6. Help, About [6]
+	echo 7. Press Any key to Exit
 	echo
-	echo -e "$purple Input your choice"
+	echo Input your choice
 	echo "#" && read input
 	echo "#"
 	case $input in 
