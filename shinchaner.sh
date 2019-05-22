@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
-apt update && apt upgrade
-apt install w3m figlet
+apt update && apt upgrade -y
+apt install w3m figlet -y
 clear
 mv shinchan.sh /$HOME/../usr/bin/shinchan
 chmod +x /$HOME/../usr/bin/shinchan
