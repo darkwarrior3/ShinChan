@@ -6,5 +6,6 @@ mv shinchan.sh /$HOME/../usr/bin/shinchan
 chmod +x /$HOME/../usr/bin/shinchan
 cd ..
 rm -rf ShinChan
-figlet ShinChan
+figlet Femurtech
+echo Made by Dark Warrior
 echo To start ShinChan just type shinchan in your console
